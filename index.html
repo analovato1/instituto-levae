@@ -163,7 +163,7 @@
             </div>
         </section>
 
-        <!-- Time / Carômetro (Movido para após a capa conforme histórico visual) -->
+        <!-- Time / Carômetro -->
         <section id="time" class="py-24 border-b border-gray-100 section-block text-center">
             <h2 class="font-whale font-chubby text-4xl md:text-5xl text-brand-black mb-16">Carômetro</h2>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -227,7 +227,7 @@
                             </div>
                             <h3 class="font-bebas text-3xl uppercase tracking-wider">Desafio da Logotipo</h3>
                         </div>
-                        <p class="text-gray-500 text-base leading-relaxed mb-6">A logo antiga carregava muitos elementos e informações pequenas, o que dificultava a leitura em formatos reduzidos.</p>
+                        <p class="text-gray-500 text-base leading-relaxed mb-6">A logo antiga carregava muitos elements e informações pequenas, o que dificultava a leitura em formatos reduzidos.</p>
                     </div>
                     <div class="p-6 bg-red-50 rounded-[2rem] border border-red-100/50">
                         <strong class="text-red-700 block mb-2 font-black uppercase text-[10px] tracking-widest italic">O Problema Central:</strong>
@@ -251,20 +251,25 @@
                 </div>
 
                 <!-- Análise Instagram -->
-                <div class="bg-white p-8 rounded-[3rem] shadow-sm border border-gray-50 lg:col-span-2">
-                    <div class="flex flex-col lg:flex-row gap-12 items-start">
-                        <div class="lg:w-1/2">
-                            <div class="flex items-center gap-4 mb-8">
-                                <div class="w-12 h-12 bg-blue-50 text-blue-500 rounded-2xl flex items-center justify-center">
-                                    <i data-lucide="instagram" class="w-6 h-6"></i>
-                                </div>
-                                <h3 class="font-bebas text-3xl uppercase tracking-wider">Análise do Instagram (Antes)</h3>
-                            </div>
-                            <div class="rounded-[2.5rem] overflow-hidden shadow-xl border-4 border-gray-50 ring-1 ring-gray-100">
-                                <img src="https://i.postimg.cc/63xL05Hf/2eaa7044-31e8-4892-9723-044f86447233.jpg" class="w-full object-cover" alt="Diagnóstico Instagram">
+                <div class="bg-white p-8 md:p-12 rounded-[3.5rem] shadow-sm border border-gray-50 lg:col-span-2">
+                    <!-- Título unificado no topo (Igual ao mockup enviado) -->
+                    <div class="flex items-center gap-4 mb-8 border-b border-gray-100 pb-5">
+                        <div class="w-12 h-12 bg-blue-50 text-blue-500 rounded-2xl flex items-center justify-center">
+                            <i data-lucide="instagram" class="w-6 h-6"></i>
+                        </div>
+                        <h3 class="font-bebas text-3xl uppercase tracking-wider">Análise do Instagram (Antes)</h3>
+                    </div>
+                    
+                    <div class="flex flex-col lg:flex-row gap-12 items-center lg:items-start">
+                        <!-- Imagem do Instagram redimensionada e ajustada como um celular proporcional -->
+                        <div class="w-full lg:w-1/2 flex justify-center">
+                            <div class="w-full max-w-[270px] rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-brand-black/5 ring-1 ring-gray-200">
+                                <img src="https://i.postimg.cc/63xL05Hf/2eaa7044-31e8-4892-9723-044f86447233.jpg" class="w-full h-[450px] object-cover object-top" alt="Diagnóstico Instagram">
                             </div>
                         </div>
-                        <div class="lg:w-1/2 space-y-8 pt-4 lg:pt-16">
+                        
+                        <!-- Coluna descritiva -->
+                        <div class="w-full lg:w-1/2 space-y-8 pt-4 lg:pt-6">
                             <div class="flex gap-6 group">
                                 <div class="font-bebas text-4xl text-brand-purple opacity-20 group-hover:opacity-100 transition-all duration-500">A.</div>
                                 <div>
@@ -558,17 +563,52 @@
 
         <!-- 07. Digital -->
         <section id="feed" class="py-24 border-b border-gray-100 section-block">
-            <span class="text-brand-purple font-bebas text-3xl tracking-widest uppercase">07. Digital</span>
-            <h2 class="font-whale font-chubby text-4xl md:text-5xl text-brand-black mt-2 mb-16">Novo Visual Instagram</h2>
+            <!-- Título unificado no topo (Igual ao mockup do diagnóstico) -->
+            <div class="flex items-center gap-4 mb-8 border-b border-gray-100 pb-5">
+                <div class="w-12 h-12 bg-purple-50 text-brand-purple rounded-2xl flex items-center justify-center">
+                    <i data-lucide="instagram" class="w-6 h-6"></i>
+                </div>
+                <h3 class="font-bebas text-3xl uppercase tracking-wider">Novo Visual Instagram (Depois)</h3>
+            </div>
             
-            <div class="bg-white p-4 md:p-6 rounded-[4rem] shadow-2xl border border-gray-50 overflow-hidden group hover:shadow-3xl transition-shadow">
-                <img src="https://i.postimg.cc/52QqhkRt/f7f50374-6e65-4887-8c0f-e2c90749ecae.jpg" class="w-full h-auto transition-transform duration-[4s] group-hover:scale-102" alt="Novo Visual Instagram">
+            <div class="flex flex-col lg:flex-row gap-12 items-center lg:items-start bg-white p-8 md:p-12 rounded-[3.5rem] shadow-sm border border-gray-50">
+                <!-- Imagem do novo Instagram ajustada proporcionalmente dentro de um celular simulado -->
+                <div class="w-full lg:w-1/2 flex justify-center">
+                    <div class="w-full max-w-[270px] rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-brand-black/5 ring-1 ring-gray-200">
+                        <img src="https://i.postimg.cc/52QqhkRt/f7f50374-6e65-4887-8c0f-e2c90749ecae.jpg" class="w-full h-[450px] object-cover object-top" alt="Novo Visual Instagram">
+                    </div>
+                </div>
+                
+                <!-- Coluna descritiva de melhorias (Symmetry com a seção Antes) -->
+                <div class="w-full lg:w-1/2 space-y-8 pt-4 lg:pt-6">
+                    <div class="flex gap-6 group">
+                        <div class="font-bebas text-4xl text-brand-purple opacity-20 group-hover:opacity-100 transition-all duration-500">A.</div>
+                        <div>
+                            <h4 class="font-whale font-bold text-lg text-brand-black mb-1">Destaques Padronizados</h4>
+                            <p class="text-sm text-gray-400 leading-relaxed">Uso do escudo oficial simplificado e das cores institucionais para uma navegação limpa e organizada.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-6 group">
+                        <div class="font-bebas text-4xl text-brand-purple opacity-20 group-hover:opacity-100 transition-all duration-500">B.</div>
+                        <div>
+                            <h4 class="font-whale font-bold text-lg text-brand-black mb-1">Biografia Estruturada</h4>
+                            <p class="text-sm text-gray-400 leading-relaxed">Texto direto focado no propósito espiritual e social, com chamada clara para ação (CTA) estratégica.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-6 group">
+                        <div class="font-bebas text-4xl text-brand-purple opacity-20 group-hover:opacity-100 transition-all duration-500">C.</div>
+                        <div>
+                            <h4 class="font-whale font-bold text-lg text-brand-black mb-1">Feed Profissional</h4>
+                            <p class="text-sm text-gray-400 leading-relaxed">Artes harmônicas utilizando a paleta oficial de roxo, preto e branco para gerar valor e autoridade de marca.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- 08. Resultados esperados -->
         <section id="resultados" class="py-24 border-b border-gray-100 section-block">
-            <span class="text-brand-purple font-bebas text-3xl tracking-widest uppercase">08. Impacto</span>
+            <span class="text-brand-purple font-bebas text-2xl tracking-widest uppercase">08. Impacto</span>
             <h2 class="font-whale font-chubby text-4xl md:text-5xl text-brand-black mt-2 mb-20">Resultados Esperados</h2>
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
